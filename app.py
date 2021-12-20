@@ -24,7 +24,7 @@ def load_model(path):
     return cv, model
 
 def predict(text):
-    cv, model = load_model("./artifacts/MNBmodel.pkl")
+    cv, model = load_model("./artifacts/MNBmodel2.pkl")
     cleaned_text = cleaning_pipeline(text)
     text_vect = cv.transform([cleaned_text])
     return model.predict(text_vect)
