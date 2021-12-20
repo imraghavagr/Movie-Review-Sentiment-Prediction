@@ -31,6 +31,8 @@ def predict(text):
     
 
 def run():
+    st.set_page_config(layout='centered',
+                   page_title="Sentiment Predicter")
     st.title("Predicting Movie Review Sentiment")
     st.header('This app is created to predict if the sentiment of a movie review is positive or negative')
     text = st.text_area('Enter text')
