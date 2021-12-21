@@ -1,4 +1,3 @@
 #ignore pickel files
 #/artifacts
-*.csv
-*.tsv
+/datasets
