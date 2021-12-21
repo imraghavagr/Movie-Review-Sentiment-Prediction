@@ -1,3 +1,4 @@
 #ignore pickel files
 #/artifacts
 /datasets
+/environment.yml
