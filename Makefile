@@ -3,7 +3,7 @@ conda-update:
 
 piptools:
 	pip-compile req.in
-	pip-sync requirements.txt
+	pip-sync req.txt
 
 app-run:
 	streamlit run app.py
