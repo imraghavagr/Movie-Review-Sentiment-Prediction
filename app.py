@@ -1,9 +1,13 @@
+import nltk
+nltk.download('stopwords')
 import numpy as np
 import streamlit as st
 import pickle
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk.stem import PorterStemmer
+
+
 
 sw = stopwords.words('english')
 sw.remove('not')
