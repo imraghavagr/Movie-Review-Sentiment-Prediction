@@ -64,7 +64,7 @@ python-dateutil==2.8.2
 pytz==2021.3
 pytz-deprecation-shim==0.1.0.post0
 #pywin32==302
-pywinpty==1.1.6
+#pywinpty==1.1.6
 pyzmq==22.3.0
 regex==2021.11.10
 requests==2.26.0
@@ -83,7 +83,7 @@ tomli==2.0.0
 toolz==0.11.2
 tornado==6.1
 tqdm==4.62.3
-traitlets==5.1.1
+#traitlets==5.1.1
 typing_extensions==4.0.1
 tzdata==2021.5
 tzlocal==4.1
